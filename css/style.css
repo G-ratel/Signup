@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+ form{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+    
+  }
+  body {
+    background-image: url(../pencil.png);
+    background-color: wheat;
+    font-family:'Nunito', sans-serif;
+    height: 100%;
+    
+  }
+input[type=text],input[type=email],input[type=password],button {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      margin-bottom: 15px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+h3 {
+  text-align: center;
+}
+button{
+    background-color: #026aff;
+    color: white;
+    margin-top: 40px;
+}
+#note{
+        background-color: red;
+        text-align: center;
+    }
+    a{
+      text-emphasis-style: none;
+      text-decoration: none;
+      color: #026aff;
+    }
+    
+    div {
+      border-radius: 5px;
+      padding: 20px;
+    }
+  @media screen and (min-width: 780px) {
+      .container {
+          margin: auto;
+          width: 40%;
+          background-color: whitesmoke;
+          padding: 5% 5%;
+      }
+    }
